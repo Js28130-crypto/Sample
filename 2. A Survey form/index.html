@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Survey Form</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Survey Form</h1>
+
+        <fieldset>
+            <legend>Let us know how we can improve freeCodeCamp</legend>
+            <form action="#">
+                <label for="fname">Name: <input type="text" placeholder="Enter your name" required="required"></label>
+                <br>
+                <br>
+                <label for="email">Email: <input type="email" placeholder="Enter your email" required="required"></label>
+                <br>
+                <br>
+                <label for="age">Age: <input type="number" min="18" max="65" placeholder="Age" required="required"></label>
+                <br>
+                <br>
+                <label for="submit"><input style="margin-left:25px ;" type="submit" value="Submit"></label>
+            </form>
+            <hr>
+            <br>
+            <form action="/action_page.php">
+                <label for=""><p> Which option best describes your current role?</p>
+                <select name="data">
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+                </select>
+                </label>
+
+            </form>
+            <br>
+            <form action="#">
+                <label for="checkbox">How likely is that you would recommend <br>
+                freeCodeCamp to a friend</label>
+                <label for=""><input type="radio" checked="checked">Definetly</label>
+                <label for=""><input type="radio">Maybe</label>
+                <label for=""><input type="radio">Not sure</label>
+            </form>
+
+
+
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>
